@@ -83,8 +83,8 @@ ul {
 /* end landing */
 /* ---------------------------- */
 /* start abute */
-.abute {background-image: url(../image/landing.jpg);background-size: cover;position: relative;height: 100vh;}
-.abute .container {display: flex;justify-content: space-between;align-items: center;flex-wrap: wrap;}
+.abute {background-image: url(../image/landing.jpg);background-size: cover;position: relative;height: 100vh;width: 100%;}
+.abute .container {display: flex;justify-content: space-between;align-items: center;flex-wrap: wrap;position: relative;}
 .abute .container .image img {width:500px;max-width: 100%;margin:40px auto;}
 .abute .container .tesmo {flex: 1;text-align: center;margin: 0;}
 .abute .container .tesmo img {width: 100px;max-width: 100%;margin-bottom: 30px;}
@@ -96,8 +96,8 @@ ul {
 /* end abute */
 /* ---------------------------- */
 /* start judaa */
-.judaa {background-image: url(../image/landing.png);background-size: cover;position: relative;height: 100vh;margin:0;color: white;text-align: center;padding-top: 50px;width: 100%;}
-.judaa .container .text {display: flex;justify-content: center;align-items: center;flex-wrap: wrap;flex-direction: column}
+.judaa {background-image: url(../image/landing.png);background-size: cover;position: relative;margin:0;color: white;text-align: center;padding-top: 50px;width: 100%;height: 100vh;}
+.judaa .container .text {display: flex;justify-content: center;align-items: center;flex-direction: column;}
 .judaa .container .text h3 {font-size: 40px;font-weight: bold;margin-top: -20px;}
 .judaa .container .text p  {line-height: 2;font-size: 20px;margin-top: -20px;}
 .judaa .container .text h4 {font-size: 50px;margin-top: -20px;}
@@ -107,7 +107,7 @@ ul {
 /* end judaa */
 /* ---------------------------- */
 /* start gallery */
-.gallery {background-image: url(../image/landing.jpg);background-size: cover;position: relative;height: 100vh;margin: 0;color: white;text-align: center;padding-top: 50px;width: 100%;padding-bottom: 30px;}
+.gallery {background-image: url(../image/landing.jpg);background-size: cover;position: relative;margin: 0;color: white;text-align: center;padding-top: 50px;width: 100%;padding-bottom: 30px;}
 .gallery .container .text h5 {font-size: 50px;margin-top: -40px;}
 .gallery .container .galer {display: grid;grid-template-columns: repeat(auto-fill,minmax(250px , 1fr ));gap: 40px;}
 .gallery .container .galer .img {border: 1px solid #ffc901;}
@@ -115,16 +115,18 @@ ul {
 /* end gallery */
 /* ---------------------------- */
 /* start footer */
+
+.footer {position: relative;text-align: center;color: white;width: 100%;height: 100%;background-image: url(../image/landing.png);background-size: cover;}
 .hr {border-color: #ffc901;border-style: dotted;}
-.footer {position: relative;text-align: center;color: white;}
-.footer .container {}
-.footer .container .image {}
+.footer .container {position: relative;}
+.footer .container .image {position: relative;}
 .footer .container .image img {max-width: 100%;width: 100px;margin: 40px auto;}
 .footer .container .menu {display: flex;justify-content: center;align-items: center;flex-wrap: wrap;margin: 0 0 40px 0;}
 .footer .container .menu li a {padding: 10px;font-size: 20px;color: white;}
 .footer .container .suchl .fa-brands {padding: 30px;font-size: 30px;margin-bottom: 30px;}
 .footer .container h2 {color: white;font-size: 20px;}
 .footer .container h2 span {color: #ffc901;}
+
 /* end footer */
 /* ---------------------------- */
 /* ---------------------------- */
