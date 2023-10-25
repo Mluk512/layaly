@@ -102,7 +102,7 @@ ul {
 .judaa .container .text p  {line-height: 2;font-size: 20px;margin-top: -20px;}
 .judaa .container .text h4 {font-size: 50px;margin-top: -20px;}
 .judaa .container .text h5 {color: #ffc901;margin-top: -70px;font-size: 20px;}
-.judaa .tomato {background-image: url(../image/judaa.png);background-size: cover;z-index: 5;height: 500px;position: absolute;bottom:0;left: 0;width: 100%;}
+.judaa .tomato {background-image: url(../image/judaa.png);background-size: cover;height: 400px;position: absolute;bottom:0;left: 0;width: 100%;}
 @media (max-width:767px) {.judaa .container .text h3 {font-size: 30px;margin-top: 40px;}.judaa .container .text h4 {font-size: 40px;}.judaa .container .text h5 {margin-top: 0px;}}
 /* end judaa */
 /* ---------------------------- */
