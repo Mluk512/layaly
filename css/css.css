@@ -92,7 +92,7 @@ ul {
 .abute .container .tesmo ul li span {color: #ffc901;}
 @media (max-width:1199px) {.abute .container .tesmo ul li {padding: 20px;font-size: 20px;}}
 @media (max-width:992px) {.abute .container .tesmo ul li {padding: 10px;}}
-@media (max-width:767px) {.abute .container .tesmo ul li {;font-size: 18px;padding: 18px;}.abute .container .tesmo img {margin-top: -60px;}.abute .container .image img {margin-top: 0px;}}
+@media (max-width:767px) {.abute .container .tesmo ul li {;font-size: 14px;padding: 10px;}.abute .container .tesmo img {margin-top: -60px;}.abute .container .image img {margin-top: 0px;}}
 /* end abute */
 /* ---------------------------- */
 /* start judaa */
