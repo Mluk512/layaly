@@ -85,7 +85,7 @@ ul {
 /* start abute */
 .abute {background-image: url(../image/landing.jpg);background-size: cover;position: relative;height: 100vh;}
 .abute .container {display: flex;justify-content: space-between;align-items: center;flex-wrap: wrap;}
-.abute .container .image img {width:500px;max-width: 100%;margin:20% auto;}
+.abute .container .image img {width:500px;max-width: 100%;margin:40px auto;}
 .abute .container .tesmo {flex: 1;text-align: center;margin: 0;}
 .abute .container .tesmo img {width: 100px;max-width: 100%;margin-bottom: 30px;}
 .abute .container .tesmo ul li {color: white;padding: 20px;font-size: 30px;}
